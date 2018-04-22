@@ -50,7 +50,8 @@
 
                 var images = {"fujita" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567",
                               "kodawari" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616",
-                              "ippudo" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615"};
+                              "ippudo" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615",
+                              "inagiku" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.bis.png?1524415503583"};
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
@@ -77,6 +78,16 @@
                 var marker = new google.maps.Marker({
                 	icon: images['ippudo'],
                     position: new google.maps.LatLng(48.864610, 2.344677),
+                    map: map,
+                    animation: google.maps.Animation.DROP,
+                    // label: "sushi",
+                    title: 'IPPUDO'
+                });
+              
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                	icon: images['inagiku'],
+                    position: new google.maps.LatLng(48.849828, 2.351734),
                     map: map,
                     animation: google.maps.Animation.DROP,
                     // label: "sushi",

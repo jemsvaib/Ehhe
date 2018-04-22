@@ -11,8 +11,8 @@
     <th>
       <a href="?page=corpus">home</a>
     </th>
-    <th>
+<!--     <th>
       <a href="?page=search">search</a>
-    </th>
+    </th> -->
   </tr>
-</table>
+</table><br><br>

@@ -7,7 +7,7 @@
     '0' => 'FUJITA',
     '1' => 'KODAWARI',
     '2' => 'IPPUDO',
-    '3' => 'IPPUDO',
+    '3' => 'INAGIKU',
   );
 
   $restsinf['FUJITA']= array(
