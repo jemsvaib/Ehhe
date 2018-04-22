@@ -2,21 +2,21 @@
 
 header.header{
  
-  margin: 25;
+  margin:25px;
   
 }
 
 h1{
   
- font-family: 'Lato';
+ font-family:'Lato';
   
 }
 
 h1.error{
  
   text-align:center;
-  font-size:300;
-  margin: 0px;
+  font-size:300px;
+  margin:0px;
   padding:0px;
   
 }
@@ -24,6 +24,29 @@ h1.error{
 div.err{
  
   text-align:center;
-  height: 100%;
   
 }
+
+a{
+ 
+  color:#1e3799;
+  text-decoration:none;
+  
+}
+
+a:hover{
+ 
+  color:#78e08f;
+  text-decoration:none;
+  
+}
+div.container{
+  
+  min-height:calc(100% - 552px - ;
+  
+}
+table{
+  
+  margin:0px;
+  
+ 
