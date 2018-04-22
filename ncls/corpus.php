@@ -97,16 +97,30 @@
   <div id="map"></div>
   <br><br>
   <p>
-  
-    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567" height="24"> fujita<br>
-    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616" height="24"> kodawari ramen<br>
-    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615" height="24"> Ippudo<br>
     
     <?php
     
       foreach ($rests as $key => $tag ) {
         
-        echo $restsinf[$rests[$key]];
+        if(isset($restsinf[$rests[$key]]['type'])){
+          
+          $type = $restsinf[$rests[$key]]['type'];
+          
+          if($type=="1"){
+            
+            $keylist = $key+1;
+            
+            echo $keylist." - ";
+            echo "sushi restaurent ";
+          
+          }
+        
+        }
+        
+        $name = $restsinf[$rests[$key]]['name'];
+        $icon = $restsinf[$rests[$key]]['icon'];
+        
+        echo "<img src='".$icon."' height='24'> ".$name."<br>";
       
       }
     
