@@ -40,11 +40,6 @@
                     styles: [{"elementType":"labels","stylers":[{"visibility":"off"},{"color":"#f49f53"}]},{"featureType":"landscape","stylers":[{"color":"#f9ddc5"},{"lightness":-7}]},{"featureType":"road","stylers":[{"color":"#813033"},{"lightness":43}]},{"featureType":"poi.business","stylers":[{"color":"#645c20"},{"lightness":38}]},{"featureType":"water","stylers":[{"color":"#1994bf"},{"saturation":-69},{"gamma":0.99},{"lightness":43}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"#f19f53"},{"weight":1.3},{"visibility":"on"},{"lightness":16}]},{"featureType":"poi.business"},{"featureType":"poi.park","stylers":[{"color":"#645c20"},{"lightness":39}]},{"featureType":"poi.school","stylers":[{"color":"#a95521"},{"lightness":35}]},{},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"color":"#813033"},{"lightness":38},{"visibility":"off"}]},{},{},{},{},{},{},{},{},{},{},{},{"elementType":"labels"},{"featureType":"poi.sports_complex","stylers":[{"color":"#9e5916"},{"lightness":32}]},{},{"featureType":"poi.government","stylers":[{"color":"#9e5916"},{"lightness":46}]},{"featureType":"transit.station","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","stylers":[{"color":"#813033"},{"lightness":22}]},{"featureType":"transit","stylers":[{"lightness":38}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#f19f53"},{"lightness":-10}]},{},{},{}]
                 };
 
-                var contentString = 'Japanese Restaurent<br>search in the list the name of this restaurent';
-
-              var infowindow = new google.maps.InfoWindow({
-                content: contentString
-              });  
               
                 // Get the HTML DOM element that will contain your map 
                 // We are using a div with id="map" seen below in the <body>
@@ -53,7 +48,9 @@
                 // Create the Google Map using our element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
 
-                var images = {"fujita" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567","fujita" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567"};
+                var images = {"fujita" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567",
+                              "kodawari" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616",
+                              "ippudo" : "https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615"};
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
@@ -68,12 +65,22 @@
               
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                	icon: images['fujita'],
-                    position: new google.maps.LatLng(48.8546531, 2.3293242),
+                	icon: images['kodawari'],
+                    position: new google.maps.LatLng(48, 2.3293242),
                     map: map,
                     animation: google.maps.Animation.DROP,
                     // label: "sushi",
                     title: 'KODAWARI'
+                });
+              
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                	icon: images['ippudo'],
+                    position: new google.maps.LatLng(48.864610, 2.344677),
+                    map: map,
+                    animation: google.maps.Animation.DROP,
+                    // label: "sushi",
+                    title: 'IPPUDO'
                 });
               
                 marker.addListener('click', function() {
@@ -91,7 +98,8 @@
   <br><br>
   <p>
   
-    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567" height="24"> fujita
+    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567" height="24"> fujita<br>
+    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616" height="24"> kodawari ramen<br>
     
   </p>
 </div>
