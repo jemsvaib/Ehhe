@@ -16,11 +16,14 @@ h1.error{
  
   text-align:center;
   font-size:300;
+  margin: 0px;
+  padding:0px;
   
 }
 
-p.e{
+div.err{
  
-  
+  text-align:center;
+  height: 100%;
   
 }
