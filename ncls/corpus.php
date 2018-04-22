@@ -117,6 +117,8 @@
     
       foreach ($rests as $key => $tag ) {
         
+        echo "<a href='".$restsinf[$rests[$key]]['url']."' target='blank'>";
+        
         if(isset($restsinf[$rests[$key]]['type'])){
           
           $type = $restsinf[$rests[$key]]['type'];
@@ -151,7 +153,7 @@
         $name = $restsinf[$rests[$key]]['name'];
         $icon = $restsinf[$rests[$key]]['icon'];
         
-        echo "<img src='".$icon."' height='24'> / ".$name."<br>";
+        echo "<img src='".$icon."' height='24'> / ".$name."</a><br>";
       
       }
     
