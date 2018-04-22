@@ -2,19 +2,36 @@
 
   $rests= array(
   
-    'fujita' => 'FUJITA',
-    'kodawari' => 'KODAWARI',
+    '0' => 'FUJITA',
+    '1' => 'KODAWARI',
+    '2' => 'IPPUDO',
   
   );
 
-  $restsinf['fujita']= array(
+  $restsinf['FUJITA']= array(
   
+    'url' => 'https://www.facebook.com/Foujita-290506878030561/',
+    'img' => '',
+    'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567',
+    'name' => ''
+  
+  );
+
+  $restsinf['KODAWARI']= array(
     
+    'url' => '',
+    'img' => '',
+    'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616',
+    'name' => ''
   
   );
 
-  $restsinf['kodawari']= array(
-  
+  $restsinf['IPPUDO']= array(
+    
+    'url' => 'http://www.ippudo.fr/',
+    'img' => '',
+    'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616',
+    'name' => ''
   
   );
 
