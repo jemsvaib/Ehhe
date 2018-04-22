@@ -10,15 +10,17 @@
     '3' => 'INAGIKU',
   );
 
-  $restsinf['FUJITA']= array(
+  $restsinf['FUJITA'] = array(
+    
     'url' => 'https://www.facebook.com/Foujita-290506878030561/',
     'img' => 'http://www.parisrues.com/imagesrest/rest01foujita101.jpg',
     'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567',
     'name' => 'Fujita - ふじた',
     'type' => '1'
+    
   );
 
-  $restsinf['KODAWARI']= array(
+  $restsinf['KODAWARI'] = array(
     
     'url' => 'https://www.kodawari-ramen.com/',
     'img' => 'https://www.kodawari-ramen.com/wp-content/uploads/2016/10/Figaroscope-2-883x600.png',
@@ -28,7 +30,7 @@
   
   );
 
-  $restsinf['IPPUDO']= array(
+  $restsinf['IPPUDO'] = array(
     
     'url' => 'http://www.ippudo.fr/',
     'img' => '',
@@ -38,7 +40,7 @@
   
   );
 
-  $restsinf['INAGIKU']= array(
+  $restsinf['INAGIKU'] = array(
   
     'url' => 'http://restaurant-inagiku.com/en',
     'img' => '',

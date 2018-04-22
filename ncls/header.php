@@ -7,12 +7,12 @@
   </h1>
 </header>
 <table>
-  <tr>
+<!--   <tr>
     <th>
       <a href="?page=corpus">home</a>
     </th>
-<!--     <th>
+    <th>
       <a href="?page=search">search</a>
-    </th> -->
-  </tr>
+    </th>
+  </tr> -->
 </table><br><br>
