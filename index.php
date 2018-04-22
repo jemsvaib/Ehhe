@@ -5,11 +5,11 @@
   <body>
     <?php
 
-    req 'ncls/';
+    require_once 'ncls/script.php';
     
-    include 'ncls/header.php';
+    require_once 'ncls/header.php';
+    require_once 'ncls/'. $page . '.php';
     
-    include 'ncls/corpus.php';
     
     ?>
   </body>
