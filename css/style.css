@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100&subset=latin-ext');
 
+body{
+ 
+
+  color:#222; 
+  
+}
+
 header.header{
  
   margin:25px;
@@ -29,24 +36,40 @@ div.err{
 
 a{
  
-  color:#1e3799;
+  color:#222;
   text-decoration:none;
   
 }
 
 a:hover{
  
-  color:#78e08f;
+  color:#f6b93b;
   text-decoration:none;
   
 }
+
 div.container{
   
-  min-height:calc(100% - 552px - ;
+  min-height:calc(100% - 552px - 150px);
   
 }
-table{
+table,header{
   
   margin:0px;
   
+}
+
+.help{
  
+  cursor: help;
+  
+}
+
+a span{
+ 
+  font-size:15;
+  overflow:
+  max-width:0px;
+  opacity:0;
+  
+}
