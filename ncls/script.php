@@ -1,5 +1,23 @@
 <?php
 
+  $rests= array(
+  
+    'fujita' => 'FUJITA',
+    'kodawari' => 'KODAWARI',
+  
+  );
+
+  $restsinf['fujita']= array(
+  
+    
+  
+  );
+
+  $restsinf['kodawari']= array(
+  
+  
+  );
+
   if(isset($_GET)){
    
     if(isset($_GET[page])){

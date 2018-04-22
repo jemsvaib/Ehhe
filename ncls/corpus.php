@@ -55,7 +55,7 @@
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
                 	icon: images['fujita'],
-                    position: new google.maps.LatLng(48.8664041, 2.3327394),
+                    position: new google.maps.LatLng(48.866410, 2.332831),
                     map: map,
                     animation: google.maps.Animation.DROP,
                     // label: "sushi",
@@ -66,7 +66,7 @@
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
                 	icon: images['kodawari'],
-                    position: new google.maps.LatLng(48, 2.3293242),
+                    position: new google.maps.LatLng(48.854643, 2.338069),
                     map: map,
                     animation: google.maps.Animation.DROP,
                     // label: "sushi",
@@ -100,6 +100,7 @@
   
     <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567" height="24"> fujita<br>
     <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616" height="24"> kodawari ramen<br>
+    <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615" height="24"> Ippudo<br>
     
   </p>
 </div>
