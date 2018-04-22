@@ -43,7 +43,7 @@ a{
 
 a:hover{
  
-  color:#f6b93b;
+  color:#303952;
   text-decoration:none;
   
 }
@@ -68,8 +68,19 @@ table,header{
 a span{
  
   font-size:15;
-  overflow:
-  max-width:0px;
+  overflow-x:hidden;
+  width:0px;
   opacity:0;
+  position:absolute;
+  
+}
+
+a:hover span{
+ 
+  font-size:15;
+  overflow-x:hidden;
+  width:0px;
+  opacity:1;
+  position:relative;
   
 }

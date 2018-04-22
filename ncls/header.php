@@ -3,7 +3,7 @@
 
 <header class="header">
   <h1>
-    JPN/<a class="help">食べ物<span>food</span></a>/Par!s
+    JPN/<a class="help">食べ物<span>(food)</span></a>/Par!s
   </h1>
 </header>
 <table>
