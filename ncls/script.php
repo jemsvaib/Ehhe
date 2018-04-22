@@ -20,8 +20,18 @@
 
   if($page!="corpus"){
    
-    $error = "404 Not Found";
+    if($page=="header"){
+      
+      $error = "403";
+
+      $page = "error";
     
-    $page = "error";
+    }else{
+      
+      $error = "404";
+
+      $page = "error";
+    
+    }
     
   }

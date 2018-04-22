@@ -11,3 +11,16 @@ h1{
  font-family: 'Lato';
   
 }
+
+h1.error{
+ 
+  text-align:center;
+  font-size:300;
+  
+}
+
+p.e{
+ 
+  
+  
+}
