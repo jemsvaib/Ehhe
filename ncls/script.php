@@ -7,7 +7,7 @@
     '0' => 'FUJITA',
     '1' => 'KODAWARI',
     '2' => 'IPPUDO',
-  
+    '3' => 'IPPUDO',
   );
 
   $restsinf['FUJITA']= array(
@@ -35,6 +35,16 @@
     'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615',
     'name' => 'Ippudo - 一風堂',
     'type' => '2'
+  
+  );
+
+  $restsinf['INAGIKU']= array(
+  
+    'url' => 'http://restaurant-inagiku.com/en',
+    'img' => '',
+    'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.bis.png?1524415503583',
+    'name' => 'Inagiku - 稲ぎく',
+    'type' => '3'
   
   );
 

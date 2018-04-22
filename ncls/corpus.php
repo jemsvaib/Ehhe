@@ -98,6 +98,10 @@
   <br><br>
   <p>
     
+    <h1>
+      a non-ordered quality restaurant list
+    </h1>
+    
     <?php
     
       foreach ($rests as $key => $tag ) {
@@ -111,7 +115,23 @@
             $keylist = $key+1;
             
             echo $keylist." - ";
-            echo "sushi restaurent ";
+            echo "sushi restaurant / ";
+          
+          }
+          if($type=="2"){
+            
+            $keylist = $key+1;
+            
+            echo $keylist." - ";
+            echo "ramen restaurant / ";
+          
+          }
+          if($type=="3"){
+            
+            $keylist = $key+1;
+            
+            echo $keylist." - ";
+            echo "grill restaurant / ";
           
           }
         
@@ -120,7 +140,7 @@
         $name = $restsinf[$rests[$key]]['name'];
         $icon = $restsinf[$rests[$key]]['icon'];
         
-        echo "<img src='".$icon."' height='24'> ".$name."<br>";
+        echo "<img src='".$icon."' height='24'> / ".$name."<br>";
       
       }
     
