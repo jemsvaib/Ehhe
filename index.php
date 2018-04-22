@@ -4,7 +4,13 @@
   </head>
   <body>
     <?php
-    phpinfo();
+
+    req 'ncls/';
+    
+    include 'ncls/header.php';
+    
+    include 'ncls/corpus.php';
+    
     ?>
   </body>
 </html>
