@@ -3,6 +3,8 @@
             #map {
                 width: 750px;
                 height: 500px;
+                margin-left: auto;
+                margin-right: auto;
             }
         </style>
         
@@ -17,7 +19,7 @@
             After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key.
                 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY"></script>
         -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuoGE1aFkyY04NXAUcAaH6v_fHk8wvmi8"></script>
         
         <script type="text/javascript">
             // When the window has finished loading create our google map below
@@ -45,15 +47,21 @@
                 // Create the Google Map using our element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
 
-                var images = {"fujita" : "https://upload.wikimedia.org/wikipedia/commons/3/3f/Japanese_Hiragana_kyokashotai_HU.png",};
+                var images = {"fujita" : "process.env.",};
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
                 	icon: images['fujita'],
                     position: new google.maps.LatLng(48.8664041, 2.3327394),
                     map: map,
+                    animation: google.maps.Animation.DROP,
+                    label: "sushi",
                     title: 'FOUJITA'
                 });
+                marker.addListener('click', function() {
+                  infowindow.open(map, marker);
+                });
+                
 
 				console.log(images['fujita']);
             }
@@ -61,6 +69,6 @@
 
 <div class="container">
   
-  
+  <div id="map"></div>
   
 </div>
