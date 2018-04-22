@@ -1,5 +1,7 @@
 <?php
 
+
+  // 
   $rests= array(
   
     '0' => 'FUJITA',
@@ -19,8 +21,8 @@
 
   $restsinf['KODAWARI']= array(
     
-    'url' => '',
-    'img' => '',
+    'url' => 'https://www.kodawari-ramen.com/',
+    'img' => 'https://www.kodawari-ramen.com/wp-content/uploads/2016/10/Figaroscope-2-883x600.png',
     'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616',
     'name' => ''
   
