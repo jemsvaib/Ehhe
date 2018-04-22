@@ -11,12 +11,10 @@
   );
 
   $restsinf['FUJITA']= array(
-  
     'url' => 'https://www.facebook.com/Foujita-290506878030561/',
-    'img' => '',
+    'img' => 'http://www.parisrues.com/imagesrest/rest01foujita101.jpg',
     'icon' => 'https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Ffu.png?1524409638567',
-    'name' => ''
-  
+    'name' => ''  
   );
 
   $restsinf['KODAWARI']= array(

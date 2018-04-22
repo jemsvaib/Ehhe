@@ -102,5 +102,15 @@
     <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fko.png?1524411018616" height="24"> kodawari ramen<br>
     <img src="https://cdn.glitch.com/3baabecb-8029-4432-a258-1f2c694a0bbe%2Fi.png?1524411352615" height="24"> Ippudo<br>
     
+    <?php
+    
+      foreach ($rests as $key => $tag ) {
+        
+        echo $restsinf[$rests[$key]];
+      
+      }
+    
+    ?>
+    
   </p>
 </div>
