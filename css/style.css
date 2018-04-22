@@ -51,6 +51,7 @@ a:hover{
 div.container{
   
   min-height:calc(100% - 552px - 150px);
+  text-align:center;
   
 }
 table,header{
@@ -62,6 +63,13 @@ table,header{
 .help{
  
   cursor: help;
+  
+}
+
+.container p{
+ 
+  font-size:24px;
+  vertical-align:middle;
   
 }
 
