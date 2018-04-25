@@ -1,7 +1,8 @@
 <style type="text/css">
             /* Set a size for our map container, the Google Map will take up 100% of this container */
             #map {
-                width: 750px;
+                width: 100%;
+                max-width: 750px;
                 height: 500px;
                 margin-left: auto;
                 margin-right: auto;
