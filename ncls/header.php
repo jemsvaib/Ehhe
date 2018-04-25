@@ -1,4 +1,8 @@
 
+<link rel="icon" type="image/png" href="blob:https://glitch.com/92274f9f-4c0f-47da-bb99-30312a70c023" />
+
+<title>sas</title>
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <header class="header">
