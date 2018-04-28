@@ -92,7 +92,7 @@
                     map: map,
                     animation: google.maps.Animation.DROP,
                     // label: "sushi",
-                    title: 'IPPUDO'
+                    title: 'INAGIKU'
                 });
               
                 marker.addListener('click', function() {
