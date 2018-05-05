@@ -6,8 +6,16 @@
       
       $error = $_GET[error];
       
+    }else{
+     
+      header('Location: /');
+      
     }
     
+  }else{
+     
+    header('Location: /');
+
   }
 
 

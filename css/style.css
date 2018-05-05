@@ -19,6 +19,12 @@ h1{
   
 }
 
+th{
+ 
+  padding-right:30;
+  
+}
+
 h1.error{
  
   text-align:center;

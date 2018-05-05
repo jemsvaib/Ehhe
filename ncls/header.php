@@ -7,16 +7,16 @@
 
 <header class="header">
   <h1>
-    .JPN/<a class="help">食べ物<span>(food)</span></a>/Par!s
+    Lamp Server Base
   </h1>
 </header>
-<table>
-<!--   <tr>
+<table class="header_menu">
+<tr>
     <th>
       <a href="?page=corpus">home</a>
     </th>
     <th>
-      <a href="?page=search">search</a>
+      <a href="?page=remix">remix</a>
     </th>
-  </tr> -->
+  </tr>
 </table><br><br>
