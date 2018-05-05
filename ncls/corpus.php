@@ -4,7 +4,7 @@
 
 Since its creation, the LAMP model has been adapted to other componentry, though typically consisting of free and open-source software. For example, an equivalent installation on the Microsoft Windows family of operating systems is known as WAMP and an equivalent installation on macOS is known as MAMP."<br>(from wikipedia)<br><br>
 <a href="https://doc.ubuntu-fr.org/lamp" target="blank"><span>> </span>ubuntu documentation page</a> | <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="blank"><span>> </span>wikipedia specs</a><br><br>
-This server is working like a normal server, you can get a clear server by <a><span>> </span>remixing here</a>. 
+This server is working like a normal server, you can get a clear server by <a href="https://glitch.com/edit/#!/remix/clean-php-mysql-lamp-server" target="blank"><span>> </span>remixing here</a>. 
 
 
 

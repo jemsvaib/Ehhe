@@ -1,6 +1,3 @@
-# **JPN FOOD PARIS**
-## What is it?
+# **Lamp Server**
 
-It's basically a japanese restaurent list.
-
-in action: https://jpn-food-paris.glitch.me/
+A php myslq server using lamp
