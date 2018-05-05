@@ -13,10 +13,13 @@
 <table class="header_menu">
 <tr>
     <th>
-      <a href="?page=corpus">home</a>
+      <a href="?page=corpus"><span>> </span>home</a>
     </th>
     <th>
-      <a href="?page=remix">remix</a>
+      <a href="?page=phpinf"><span>> </span>php infos</a>
+    </th>
+    <th>
+      <a href="https://glitch.com/edit/#!/remix/php-html-lamp-server"><span>> </span>remix</a>
     </th>
   </tr>
 </table><br><br>

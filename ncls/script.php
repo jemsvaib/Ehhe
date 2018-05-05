@@ -20,7 +20,7 @@
     
   }
 
-  if($page!="corpus"){
+  if($page!="corpus" && $page!="phpinf"){
    
     if($page=="header"){
       

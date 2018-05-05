@@ -12,10 +12,6 @@
       
     }
     
-  }else{
-     
-    header('Location: /');
-
   }
 
 
